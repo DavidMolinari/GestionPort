@@ -23,7 +23,7 @@ namespace Port_classes_console
         }
 
 
-        private void Stocker(int qte)
+        public void Stocker(int qte)
         {
             this.CapaDispo = this.CapaDispo - qte;
         }
@@ -32,5 +32,11 @@ namespace Port_classes_console
         {
             return this.CapaDispo == 0;
         }
+
+        public Stockage(int capa)
+        {
+            this.CapaDispo = capa;
+        }
+        public Stockage() { }
     }
 }
