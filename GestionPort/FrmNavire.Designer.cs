@@ -141,6 +141,7 @@
             this.btnAfficherStockages.TabIndex = 3;
             this.btnAfficherStockages.Text = "Afficher les Stockages :";
             this.btnAfficherStockages.UseVisualStyleBackColor = true;
+            this.btnAfficherStockages.Click += new System.EventHandler(this.btnAfficherStockages_Click);
             // 
             // btnCreerStockage
             // 
