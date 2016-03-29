@@ -14,12 +14,11 @@ namespace Port_classes_console
         public Port()
         {
             Stockages = new List<Stockage>();
-            Stockages.Add(new Stockage(150, 150));
-            Stockages.Add(new Stockage(250, 250));
-            Stockages.Add(new Stockage(300, 300));
-            Navires = new List<Navire>();
-            Navires.Add(new Navire("80", "BlackPearls", "80", 600));
-            this.dechargement(Navires.ElementAt(0));
+
+        }
+        public override string ToString()
+        {
+            return Stockages.Count.ToString();
         }
         public void dechargement(Navire unNavire)
         {

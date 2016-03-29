@@ -54,6 +54,7 @@
             this.grpBoxAction = new System.Windows.Forms.GroupBox();
             this.btnQuitter = new System.Windows.Forms.Button();
             this.btnDecharger = new System.Windows.Forms.Button();
+            this.labelnbStockages = new System.Windows.Forms.Label();
             this.grpBoxPort.SuspendLayout();
             this.grpBoxStockages.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
@@ -72,6 +73,7 @@
             // 
             // grpBoxPort
             // 
+            this.grpBoxPort.Controls.Add(this.labelnbStockages);
             this.grpBoxPort.Controls.Add(this.lblNbStockages);
             this.grpBoxPort.Controls.Add(this.label2);
             this.grpBoxPort.Controls.Add(this.BtnCreerPort);
@@ -107,6 +109,7 @@
             this.BtnCreerPort.TabIndex = 0;
             this.BtnCreerPort.Text = "Creer un Port";
             this.BtnCreerPort.UseVisualStyleBackColor = true;
+            this.BtnCreerPort.Click += new System.EventHandler(this.BtnCreerPort_Click);
             // 
             // grpBoxStockages
             // 
@@ -132,11 +135,11 @@
             // 
             // btnAfficherStockages
             // 
-            this.btnAfficherStockages.Location = new System.Drawing.Point(18, 54);
+            this.btnAfficherStockages.Location = new System.Drawing.Point(15, 54);
             this.btnAfficherStockages.Name = "btnAfficherStockages";
-            this.btnAfficherStockages.Size = new System.Drawing.Size(110, 23);
+            this.btnAfficherStockages.Size = new System.Drawing.Size(143, 23);
             this.btnAfficherStockages.TabIndex = 3;
-            this.btnAfficherStockages.Text = "button1";
+            this.btnAfficherStockages.Text = "Afficher les Stockages :";
             this.btnAfficherStockages.UseVisualStyleBackColor = true;
             // 
             // btnCreerStockage
@@ -147,6 +150,7 @@
             this.btnCreerStockage.TabIndex = 2;
             this.btnCreerStockage.Text = "Creer un Stockage";
             this.btnCreerStockage.UseVisualStyleBackColor = true;
+            this.btnCreerStockage.Click += new System.EventHandler(this.btnCreerStockage_Click);
             // 
             // numericUpDown1
             // 
@@ -304,6 +308,14 @@
             this.btnDecharger.Text = "Décharger";
             this.btnDecharger.UseVisualStyleBackColor = true;
             // 
+            // labelnbStockages
+            // 
+            this.labelnbStockages.Location = new System.Drawing.Point(240, 43);
+            this.labelnbStockages.Name = "labelnbStockages";
+            this.labelnbStockages.Size = new System.Drawing.Size(100, 23);
+            this.labelnbStockages.TabIndex = 3;
+            this.labelnbStockages.Click += new System.EventHandler(this.labelnbStockages_Click);
+            // 
             // FrmNavire
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -357,5 +369,6 @@
         private System.Windows.Forms.GroupBox grpBoxAction;
         private System.Windows.Forms.Button btnDecharger;
         private System.Windows.Forms.Button btnQuitter;
+        private System.Windows.Forms.Label labelnbStockages;
     }
 }
