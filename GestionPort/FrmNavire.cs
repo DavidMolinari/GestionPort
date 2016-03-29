@@ -46,11 +46,13 @@ namespace GestionPort
 
         private void btnCreerStockage_Click(object sender, EventArgs e)
         {
-            List<Stockage> unStock = new List<Stockage>();
-            var meh = this.numericUpDown1.Value;
+            int meh = Convert.ToInt32(this.numericUpDown1.Value);
 
+
+            List<Stockage> unStock = new List<Stockage>();
+            unStock.Add(new Stockage(meh, meh));
+            
             // TODO : MERGE MON PROJET et Utiliser mes propres CLASSES ! MEH MEH MEH MEH MEH
-            unStock.Add(meh);
         }
     }
 }

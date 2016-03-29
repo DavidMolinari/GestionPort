@@ -11,26 +11,39 @@ namespace Port_classes_console
         private int capaDispo;
         private int capaTotal;
 
+        public int CapaDispo
+        {
+            get
+            {
+                return capaDispo;
+            }
+
+            set
+            {
+                capaDispo = value;
+            }
+        }
+
         public Stockage(int pCapaDispo, int pCapaTotal)
         {
-            this.capaDispo = pCapaDispo;
+            this.CapaDispo = pCapaDispo;
             this.capaTotal = pCapaTotal;
         }
         public int obtenirCapaDispo()
         {
-            return this.capaDispo;
+            return this.CapaDispo;
         }
         public void stocker(int qte)
         {
-            this.capaDispo = this.capaDispo - qte;
+            this.CapaDispo = this.CapaDispo - qte;
         }
         public bool estVide()
         {
-            return this.capaDispo == this.capaTotal;
+            return this.CapaDispo == this.capaTotal;
         }
         public bool estRemplie()
         {
-            return this.capaDispo == 0;
+            return this.CapaDispo == 0;
         }
     }
 }
