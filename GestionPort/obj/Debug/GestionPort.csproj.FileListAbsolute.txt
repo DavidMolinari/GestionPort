@@ -1,0 +1,17 @@
+c:\users\raimon.d\documents\visual studio 2015\Projects\GestionPort\GestionPort\bin\Debug\GestionPort.exe.config
+c:\users\raimon.d\documents\visual studio 2015\Projects\GestionPort\GestionPort\bin\Debug\GestionPort.exe
+c:\users\raimon.d\documents\visual studio 2015\Projects\GestionPort\GestionPort\bin\Debug\GestionPort.pdb
+c:\users\raimon.d\documents\visual studio 2015\Projects\GestionPort\GestionPort\obj\Debug\GestionPort.csprojResolveAssemblyReference.cache
+c:\users\raimon.d\documents\visual studio 2015\Projects\GestionPort\GestionPort\obj\Debug\GestionPort.exe
+c:\users\raimon.d\documents\visual studio 2015\Projects\GestionPort\GestionPort\obj\Debug\GestionPort.pdb
+C:\Users\raimon.d\documents\visual studio 2015\Projects\GestionPort\GestionPort\obj\Debug\GestionPort.Form1.resources
+C:\Users\raimon.d\documents\visual studio 2015\Projects\GestionPort\GestionPort\obj\Debug\GestionPort.csproj.GenerateResource.Cache
+C:\Users\molinari.d\Documents\GitHubVisualStudio\GestionPort\GestionPort\bin\Debug\GestionPort.exe.config
+C:\Users\molinari.d\Documents\GitHubVisualStudio\GestionPort\GestionPort\obj\Debug\GestionPort.exe
+C:\Users\molinari.d\Documents\GitHubVisualStudio\GestionPort\GestionPort\obj\Debug\GestionPort.pdb
+C:\Users\molinari.d\Documents\GitHubVisualStudio\GestionPort\GestionPort\bin\Debug\GestionPort.exe
+C:\Users\molinari.d\Documents\GitHubVisualStudio\GestionPort\GestionPort\bin\Debug\GestionPort.pdb
+C:\Users\molinari.d\Documents\GitHubVisualStudio\GestionPort\GestionPort\obj\Debug\GestionPort.csprojResolveAssemblyReference.cache
+C:\Users\molinari.d\Documents\GitHubVisualStudio\GestionPort\GestionPort\obj\Debug\GestionPort.Form1.resources
+C:\Users\molinari.d\Documents\GitHubVisualStudio\GestionPort\GestionPort\obj\Debug\GestionPort.csproj.GenerateResource.Cache
+C:\Users\molinari.d\Documents\GitHubVisualStudio\GestionPort\GestionPort\obj\Debug\GestionPort.FrmNavire.resources
